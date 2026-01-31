@@ -432,6 +432,7 @@ h6 {
     padding: 50px;
     margin-top: 50px;
     margin-left: -90px;
+    position: relative;
 }
 
 .big-circle p {
@@ -633,7 +634,7 @@ h6 {
         width: 300px;
     right: 40px;
 }
-@media (max-width:1200px){
+@media (max-width:1299px){
     .hero-section h1{
         font-size: 100px;
         letter-spacing: 0;
@@ -661,6 +662,7 @@ h6 {
     }
     .big-circle{
         margin-bottom: 40px;
+       
     }
     .orange_color h4{
         font-size: 30px;
@@ -755,6 +757,10 @@ h6 {
     .the_reality h2{
         font-size: 80px;
     }
+    .side_img img{
+        max-width: 100%;
+        width: 100%;
+    }
     .reality_box img {
     width: 78px;
 }
@@ -812,6 +818,9 @@ h6 {
         border-radius: 50px;
         padding: 50px;
     }
+    .big-circle{
+        width: 100%;
+    }
     .big-circle p{
         font-size: 25px;
     }
@@ -819,7 +828,8 @@ h6 {
         border-radius: 40px;
     }
     .men_book img{
-        width: 530px;
+        width: 50%;
+        margin: 0;
     }
     .mission_box ul li{
         font-size: 20px;
@@ -876,6 +886,7 @@ padding: 0 !important;
     }
     .big-circle{
         background-image: url(../image/m-big-circle.png);
+        
     }
     .big-circle p{
         font-size: 24px;
@@ -924,9 +935,10 @@ padding: 0 !important;
         bottom: -50px;
     }
 .our-mission .why_reading{
-        padding-left: 90px;
+    padding-left: 90px;
     z-index: 3;
     position: relative;
+    font-size: 38px;
 }
     .bg-orange h2 {
         font-size: 24px;
@@ -988,11 +1000,15 @@ padding: 0 !important;
         padding: 0 !important;
         line-height: 1;
     }
+    .our-mission .why_reading{
+        margin-top: 175px;
+    }
 
     .big-circle {
-        width: 300px;
-        margin-left: 50px;
+        width: 100%;
+        margin-left: 0px;
         padding: 20px;
+        max-width: 100%;
     }
 
     .our_belief h1 {
@@ -1069,10 +1085,10 @@ padding: 0 !important;
         border-radius: 40px;
     }
    .shift_inhow .border_2 .parent_boxs.border_about{
-        margin-top: -400px;
+        margin-top: -431px;
     padding-right: 0;
     padding-left: 80px;
-    bottom: 0px;
+    bottom: 200px;
     }
     .shift_inhow .border_2 .parent_boxs.border_about .about_text_box{
         bottom: -120px;
@@ -1241,5 +1257,32 @@ padding: 0 !important;
     .hero_text .mobile_view {
         position: absolute;
         right: 0px;
+    }
+}
+@media (max-width:600px){
+    .our-mission .why_reading{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .set_border{
+        margin-top: 103px;
+    }
+    .big-circle{
+        margin: 20px 0 0;
+        width: 100%;
+    }
+    .big-circle p {
+        font-size: 16px;
+        padding: 11px 0px 11px 30px;
+    }
+    .shift_inhow .border_2 .parent_boxs.border_about .about_text_box {
+        bottom: -70px;
+    }
+    .shift_inhow .border_2 .parent_boxs.border_about{
+                      margin-top: -118px;
+        bottom: 200px;
+    }
+    .about_text_box{
+        width: 198px;
     }
 }
